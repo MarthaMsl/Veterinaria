@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menuMascota</class>
+ <widget class="QMainWindow" name="menuMascota">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="MenuMascotas">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>menuMasc.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_AddMascota">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>320</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{
+
+	background-color: rgb(255, 255, 255) ;
+	
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}
+
+QPushButton:hover{
+
+	background-color:  rgb(85, 170, 0);
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_consultMascota">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>320</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color: rgb(255, 255, 255) ;
+	
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}
+
+QPushButton:hover{
+
+	background-color: rgb(255, 170, 0);
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Consultar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ModdifyMascota">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>530</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color: rgb(255, 255, 255) ;
+	
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}
+
+QPushButton:hover{
+
+	background-color:  rgb(85, 170, 255);
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Modificar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_DeleteMascota">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>530</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+	background-color: rgb(255, 255, 255) ;
+	
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}
+
+QPushButton:hover{
+
+	background-color:  rgb(255, 0, 0);
+	font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>Eliminar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Back">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>550</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 11pt &quot;Bahnschrift SemiBold&quot;;
+back-groud color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Ir al menú principal</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
